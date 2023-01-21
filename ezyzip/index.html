@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width,
+	initial-scale=1.0">
+	<title> Recipe Website </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Square+Peg&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class = "header">
+
+		<nav> 
+			<img src="images/logo.jpg" width=10px> 
+			<div class="nav-links" id="navLinks">
+				<ul>
+					<li><a href="index.html">Home</a></li> 
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+	<div class="text-box">
+		<h1> Worlds's best recipes </h1>
+		<p>Food for us comes from our relatives, whether they have wings or fins or roots. That is how we consider food. <br><br>
+		Food has a culture. It has a history. It has a story. It has relationships </p>
+
+		<a href="about.html" class="hero-btn"> Learn More About Us  </a> 
+	</div>
+	</section>
+
+
+
+	<!--- Intro --->
+
+	<section class="course">
+		<h1> Different Tastes</h1>
+		<p> Food is the basic human need to stay alive. Moreover, it is the need of every living organism. Therefore it is important that we should not waste food. Our world consists of different types of cultures. These cultures have varieties of dishes of food in them.</p>
+
+		<div class="row">
+			<div class="course-col">
+				<h2>Spicy</h2>
+				<p> Spicy food has the piquant, hot, fiery, burning taste of spices. We are talking of highly spiced, piquant, zesty food, certainly savory. It can be also described after the predominant spice, like peppery or gingery food. </p>
+			</div>
+
+			<div class="course-col">
+				<h2>Sweet</h2>
+				<p> The term dessert can apply to many confections, such as biscuits, cakes, cookies, custards, gelatins, ice creams, pastries, pies, puddings, macaroons, sweet soups, tarts, and fruit salad. Fruit is also commonly found in dessert courses because of its naturally occurring sweetness. </p>
+			</div>
+
+			<div class="course-col">
+				<h2>Tangy</h2>
+				<p> Sour taste is acceptable when mild but becomes unpleasant when strong. It helps us to avoid unripe fruit and damage our tissue with acids. In humans, acids induce salivation, which increases bicarbonate secretions, the major buffering agent in saliva. </p>
+			</div>
+		</div>
+
+	</section>
+
+	<!--- different dishes--->
+	<section class="dishes">
+		<h1>Different Dishes</h1>
+		<br>
+
+		<div class="row">
+			<div class="dish1">
+				<a href="burger.html">
+					<img src="images/burger3.jpg">
+					<div class="layer">
+						<h2> Burger </h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="dish1">
+				<a href="pizza.html">
+					<img src="images/pizza.jpg">
+					<div class="layer">
+						<h2> Pizza </h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="dish1">
+				<a href="pasta.html">
+					<img src="images/pasta.jpg">
+					<div class="layer">
+						<h2> Pasta </h2>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="dish1">
+				<a href="burritos.html">
+					<img src="images/burritos.jpg">
+					<div class="layer">
+						<h2> Burritos </h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="dish1">
+				<a href="fried.html">
+					<img src="images/rice.jpg">
+					<div class="layer">
+						<h2> Fried Rice </h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="dish1">
+				<a href="pani.html">
+					<img src="images/panipuri.webp">
+					<div class="layer">
+						<h2> Pani Puri </h2>
+					</div>
+				</a>
+			</div>
+
+		</div>
+
+		<div class="row">
+			<div class="dish1">
+				<a href="sandwich.html">
+					<img src="images/sand.jpg">
+					<div class="layer">
+						<h2> Sandwich </h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="dish1">
+				<a href="maanchurian.html">
+					<img src="images/manchurian.jpg">
+					<div class="layer">
+						<h2> Veg Maanchurian </h2>
+					</div>
+				</a>
+			</div>
+
+			<div class="dish1">
+				<a href="pav.html">
+					<img src="images/pav.jpg">
+					<div class="layer">
+						<h2> Pav Bhaji </h2>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</section>
+
+	<!--Call to action -->
+
+	<section class="cta">
+		<br> 
+		<h1> Keep In Touch And Share Your Innovative Recipes </h1>
+		<a href="contact.html" class="hero-btn"> Contact Us </a> 
+		
+	</section>
+
+
+<!---javascript--->
+<script>
+	var navLinks=documents.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right="0";
+	}
+	function hideMenu(){
+		navLinks.style.right ="-200px";
+	}
+
+</script>
+
+</body>
+</html>
